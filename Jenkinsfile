@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('GetProject') {
             steps {
-                git branch:'main', url:'https://github.com/idelija92/Springboot_demo'
+                git branch:'main', url:'https://github.com/idelija92/CT5171_Lab7'
             }
         }
         stage ('Build') {
